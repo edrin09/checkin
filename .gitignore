@@ -1,0 +1,15 @@
+# 本地配置与账号凭据（绝不能提交）
+/.env
+**/accounts.json
+**/profiles.json
+**/accounts.md
+**/*.json.tmp
+
+# 运行产物
+/checkin.log
+/mail_preview.html
+/.workbuddy
+__pycache__/
+*.py[cod]
+.venv/
+venv/
