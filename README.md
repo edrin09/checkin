@@ -9,11 +9,17 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D4?logo=windows&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![GitHub stars](https://img.shields.io/github/stars/edrin09/checkin?style=flat&logo=github)](https://github.com/edrin09/checkin)
+[![Gitee](https://img.shields.io/badge/Gitee-edrin%2Fcheckin-C71D23?logo=gitee&logoColor=white)](https://gitee.com/edrin/checkin)
 
 </div>
 
 只做两件事：把每天重复的签到点掉，把多账号的登录态管好。脚本直接调用官方 Web 接口，
 不模拟点击、不需要一直开着客户端；账号、token、日志全部留在本机。
+
+GitHub：[edrin09/checkin](https://github.com/edrin09/checkin) · Gitee：[edrin/checkin](https://gitee.com/edrin/checkin)
+
+如果这个工具帮你省了每天点签到的时间，欢迎点个 Star。
 
 ## 功能
 
@@ -43,8 +49,14 @@
 
 ```powershell
 pip install requests pycryptodome
-git clone <仓库地址> checkin
+git clone https://github.com/edrin09/checkin.git
 cd checkin
+```
+
+国内网络访问 GitHub 较慢时，可改用 Gitee：
+
+```powershell
+git clone https://gitee.com/edrin/checkin.git
 ```
 
 ### 2. 添加账号
